@@ -72,6 +72,24 @@ body {
   margin: 0px;
 }
 
+.gif {
+  position: fixed;
+  bottom: 0px;
+  left: 60%;
+}
+
+.gif2 {
+  position: fixed;
+  bottom: 0px;
+  left: 30%;
+}
+
+.gif3 {
+  position: fixed;
+  bottom: 0px;
+  left: 0%;
+}
+
 @media (max-width: 550px) {
   .big-number {
     font-size: 48px;
@@ -90,6 +108,24 @@ body {
     border-left: 0px;
     border-right: 0px;
     border-radius: 0px;
+  }
+
+  .gif {
+    position: fixed;
+    bottom: -50px;
+    left: 0%;
+  }
+
+  .gif2 {
+    position: fixed;
+    bottom: 0px;
+    left: 30%;
+  }
+
+  .gif3 {
+    position: fixed;
+    bottom: 0px;
+    left: -40%;
   }
 }
 
